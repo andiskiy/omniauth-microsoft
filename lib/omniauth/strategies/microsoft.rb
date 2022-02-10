@@ -44,8 +44,7 @@ module OmniAuth
       end
 
       def current_user_url
-        'https://graph.microsoft.com/v1.0/me?'\
-        '$select=displayName,mail,mailboxSettings,userPrincipalName'
+        'https://graph.microsoft.com/v1.0/me'
       end
     end
   end
